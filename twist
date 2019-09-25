@@ -6,8 +6,8 @@
 function shadowsocksconfig(){
     SSLOCAL="[\"[::0]\",\"0.0.0.0\"]"
     PORT="443"
-    PASSWORD=""
-    METHOD="rc4-md5"
+    PASSWORD="abc"
+    METHOD="chacha20-ietf-poly1305"
     TIMEOUT="1800"
     OBFS="tls"
     OBFSHOST="mzstatic.com"
